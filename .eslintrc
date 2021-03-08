@@ -1,0 +1,46 @@
+{
+    "globals": {
+        "localStorage": true,
+        "document": true,
+        "window": true
+    },
+    "env": {
+        "jest": true
+    },
+    "extends": ["react-app", "prettier", "prettier/react"],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true,
+            "modules": true
+        }
+    },
+    "rules": {
+        "no-console": "off",
+        "no-unused-expressions": [2, { "allowShortCircuit": true }],
+        "react/prop-types": 0,
+        "react-hooks/exhaustive-deps": 0,
+        "arrow-body-style": 0,
+        "import/prefer-default-export": 0,
+        "import/no-anonymous-default-export": 0,
+        "import/no-extraneous-dependencies": 0,
+        "import/no-unresolved": 0,
+        "react/forbid-prop-types": 0,
+        "no-shadow": "off",
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [".js", ".jsx"]
+            }
+        ]
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "paths": ["src"],
+                "extensions": [".js", ".jsx"]
+            }
+        }
+    }
+}
