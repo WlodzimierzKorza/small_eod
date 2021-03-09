@@ -9,7 +9,7 @@ const NavBar = () => {
     console.log(routsArray)
     return (
         <>
-            <Navbar bg="">
+            <Navbar sticky="top" bg="light">
                 <Navbar.Brand>
                     <img
                         width="auto"
@@ -22,7 +22,7 @@ const NavBar = () => {
                 <Nav className="justify-content-end">
                     {routsArray.map((item) => {
                         return (
-                            <Nav.Item>
+                            <Nav.Item key={item.name}>
                                 <Link to={item.path}>{item.name}</Link>
                             </Nav.Item>
                         )
