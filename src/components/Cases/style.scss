@@ -1,0 +1,15 @@
+@import '../../theme/theme.scss';
+.tag {
+    display: inline-block;
+    padding: 1px 10px;
+    background: $blue100;
+    text-align: center;
+    border-radius: 2px;
+    color: $blue200;
+    font-size: 12px;
+    margin: 2px;
+    &:hover {
+        text-decoration: none;
+        opacity: 0.5;
+    }
+}

@@ -1,17 +1,33 @@
 import React from 'react'
 import { ListGroup, Row, Col } from 'react-bootstrap'
+import { createDate } from '../../helpers'
 
-const CasesRow = () => {
+const CasesRow = ({ item }) => {
     return (
         <ListGroup.Item>
             <Row>
-                <Col md={2}>Kontrola zatrudnienia</Col>
-                <Col md={2}>Urząd Miasta Leszna</Col>
-                <Col md={4}>cos specjalnego</Col>
-                <Col md={1}>22/02/2021</Col>
-                <Col md={1}>24/02/2021</Col>
-                <Col md={1}>tag 1, tag 2, tag 3</Col>
-                <Col md={1}>5</Col>
+                <Col md={2}>
+                    <a href="/#">{item.name}</a>
+                </Col>
+                <Col md={2}>{item.audited_institutions}</Col>
+                <Col md={3}>{item.comment}</Col>
+                <Col md={1} className="text-center">
+                    {createDate(item.createdOn)}
+                </Col>
+                <Col md={1} className="text-center">
+                    {createDate(item.modifiedOn)}
+                </Col>
+                <Col md={2}>
+                    {item.tags &&
+                        item.tags.map((item) => {
+                            return (
+                                <a href="##" className="tag" key={item}>
+                                    {item}
+                                </a>
+                            )
+                        })}
+                </Col>
+                <Col className="text-center">{item.letterCount}</Col>
             </Row>
         </ListGroup.Item>
     )
