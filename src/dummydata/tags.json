@@ -1,0 +1,87 @@
+{
+    "count": 49,
+    "next": "http://backend.dev.small-eod.siecobywatelska.pl/api/tags/?limit=20&offset=20",
+    "previous": null,
+    "results": [
+        {
+            "id": 10,
+            "name": "tag-0009"
+        },
+        {
+            "id": 11,
+            "name": "tag-0010"
+        },
+        {
+            "id": 12,
+            "name": "tag-0011"
+        },
+        {
+            "id": 14,
+            "name": "tag-0013"
+        },
+        {
+            "id": 15,
+            "name": "tag-0014"
+        },
+        {
+            "id": 16,
+            "name": "tag-0015"
+        },
+        {
+            "id": 17,
+            "name": "tag-0016"
+        },
+        {
+            "id": 18,
+            "name": "tag-0017"
+        },
+        {
+            "id": 19,
+            "name": "tag-0018"
+        },
+        {
+            "id": 22,
+            "name": "tag-0021"
+        },
+        {
+            "id": 23,
+            "name": "tag-0022"
+        },
+        {
+            "id": 24,
+            "name": "tag-0023"
+        },
+        {
+            "id": 25,
+            "name": "tag-0024"
+        },
+        {
+            "id": 26,
+            "name": "tag-0025"
+        },
+        {
+            "id": 27,
+            "name": "tag-0026"
+        },
+        {
+            "id": 28,
+            "name": "tag-0027"
+        },
+        {
+            "id": 29,
+            "name": "tag-0028"
+        },
+        {
+            "id": 30,
+            "name": "tag-0029"
+        },
+        {
+            "id": 31,
+            "name": "tag-0030"
+        },
+        {
+            "id": 32,
+            "name": "tag-0031"
+        }
+    ]
+}

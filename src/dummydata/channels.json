@@ -1,0 +1,115 @@
+{
+    "count": 9,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 4,
+            "name": "channel-0003",
+            "city": true,
+            "voivodeship": true,
+            "flatNo": false,
+            "street": false,
+            "postalCode": false,
+            "houseNo": true,
+            "email": false,
+            "epuap": true
+        },
+        {
+            "id": 5,
+            "name": "channel-0004",
+            "city": false,
+            "voivodeship": false,
+            "flatNo": true,
+            "street": false,
+            "postalCode": false,
+            "houseNo": false,
+            "email": true,
+            "epuap": false
+        },
+        {
+            "id": 6,
+            "name": "channel-0005",
+            "city": false,
+            "voivodeship": false,
+            "flatNo": true,
+            "street": false,
+            "postalCode": false,
+            "houseNo": false,
+            "email": false,
+            "epuap": true
+        },
+        {
+            "id": 7,
+            "name": "channel-0006",
+            "city": true,
+            "voivodeship": false,
+            "flatNo": false,
+            "street": true,
+            "postalCode": true,
+            "houseNo": false,
+            "email": true,
+            "epuap": false
+        },
+        {
+            "id": 8,
+            "name": "channel-0007",
+            "city": false,
+            "voivodeship": false,
+            "flatNo": false,
+            "street": false,
+            "postalCode": false,
+            "houseNo": false,
+            "email": true,
+            "epuap": true
+        },
+        {
+            "id": 9,
+            "name": "channel-0008",
+            "city": true,
+            "voivodeship": false,
+            "flatNo": true,
+            "street": true,
+            "postalCode": true,
+            "houseNo": false,
+            "email": true,
+            "epuap": true
+        },
+        {
+            "id": 10,
+            "name": "channel-0009",
+            "city": false,
+            "voivodeship": false,
+            "flatNo": true,
+            "street": false,
+            "postalCode": false,
+            "houseNo": false,
+            "email": false,
+            "epuap": true
+        },
+        {
+            "id": 1,
+            "name": "channel-0000",
+            "city": true,
+            "voivodeship": true,
+            "flatNo": true,
+            "street": true,
+            "postalCode": true,
+            "houseNo": true,
+            "email": true,
+            "epuap": false
+        },
+        {
+            "id": 2,
+            "name": "channel-0001",
+            "city": true,
+            "voivodeship": false,
+            "flatNo": true,
+            "street": false,
+            "postalCode": true,
+            "houseNo": true,
+            "email": true,
+            "epuap": false
+        }
+    ]
+}

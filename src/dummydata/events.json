@@ -1,0 +1,14 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 4,
+            "case": 7,
+            "name": "Test",
+            "date": "2021-01-01T23:56:00Z",
+            "comment": "Test"
+        }
+    ]
+}
