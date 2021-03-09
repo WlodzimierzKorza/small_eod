@@ -9,12 +9,12 @@ import MainTemplate from './templates/MainTemplate'
 import { routs } from './routs'
 
 const App = () => {
-    const { cases, channels, features, documentTypes, users, instytutions } = routs
+    const { cases, channels, features, documentTypes, instytutions } = routs
     return (
         <BrowserRouter>
             <MainTemplate>
                 <Switch>
-                    <Route exact path="/" render={() => <Redirect to="/sprawy" />} />
+                    <Route exact path="/" render={() => <Redirect to="/cases" />} />
                     <Route path={`${cases.path}`} component={CasesView} />
                     <Route path={`${channels.path}`} component={ChannelsView} />
                     <Route path={`${features.path}`} component={FeaturesView} />
