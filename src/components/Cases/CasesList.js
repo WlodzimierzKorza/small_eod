@@ -1,15 +1,20 @@
 import React from 'react'
-import { connect } from 'react-redux'
 import { ListGroup, Row, Col } from 'react-bootstrap'
 import CasesRow from './CasesRow'
 
-const CasesList = ({ state }) => {
-    console.log(state)
+const CasesList = ({ cases, handleSort }) => {
     return (
         <ListGroup>
             <ListGroup.Item variant="primary">
                 <Row className="font-weight-bold">
-                    <Col md={2}>Nazwa</Col>
+                    <Col
+                        md={2}
+                        onClick={() => {
+                            handleSort('name')
+                        }}
+                    >
+                        Nazwa
+                    </Col>
                     <Col md={2}>Instytucja</Col>
                     <Col md={3}>Komentarz</Col>
                     <Col md={1} className="text-center">
@@ -26,17 +31,10 @@ const CasesList = ({ state }) => {
                     </Col>
                 </Row>
             </ListGroup.Item>
-            {state.cases.map((item) => {
+            {cases.map((item) => {
                 return <CasesRow key={item.id} item={item} />
             })}
         </ListGroup>
     )
 }
-
-const mapStateToProps = (state) => {
-    return {
-        state,
-    }
-}
-
-export default connect(mapStateToProps, null)(CasesList)
+export default CasesList

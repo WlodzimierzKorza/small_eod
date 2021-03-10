@@ -15,3 +15,23 @@ export const sortArray = (array, param, order) => {
         return a[param] < b[param] ? 1 : -1
     })
 }
+
+export const arrayStringFilter = (array, field, value, tag) => {
+    console.log(field, value)
+    if (value.length > 2) {
+        return array.filter((item) => {
+            return item[field].toLowerCase().search(value) !== -1
+        })
+    } else return array
+}
+export const arrayTagsFilter = (array, value) => {
+    if (value.length > 2) {
+        return array.filter((item) => {
+            return (
+                item.tags.filter((tag) => {
+                    return tag.toLowerCase().search(value) !== -1
+                }).length > 0
+            )
+        })
+    } else return array
+}
