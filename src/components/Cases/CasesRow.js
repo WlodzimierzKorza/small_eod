@@ -11,12 +11,12 @@ const CasesRow = ({ item }) => {
                 </Col>
                 <Col md={2}>{item.audited_institutions}</Col>
                 <Col md={3}>{item.comment}</Col>
-                <Col md={1} className="text-center">
+                {/* <Col md={1} className="text-center">
                     {createDate(item.createdOn)}
                 </Col>
                 <Col md={1} className="text-center">
                     {createDate(item.modifiedOn)}
-                </Col>
+                </Col> */}
                 <Col md={2}>
                     {item.tags &&
                         item.tags.map((item) => {

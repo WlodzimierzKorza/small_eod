@@ -17,12 +17,12 @@ const CasesList = ({ cases, handleSort }) => {
                     </Col>
                     <Col md={2}>Instytucja</Col>
                     <Col md={3}>Komentarz</Col>
-                    <Col md={1} className="text-center">
+                    {/* <Col md={1} className="text-center">
                         Utworzono
                     </Col>
                     <Col md={1} className="text-center">
                         Zmodyfikowano
-                    </Col>
+                    </Col> */}
                     <Col md={2} className="text-center">
                         Tagi
                     </Col>
